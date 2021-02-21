@@ -5,20 +5,20 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Roboto', sans-serif; }
 
 .navbar.navbar-default {
-  background-color: transparent;
+  background: linear-gradient(to right, #65a99a, #01b4a0);
   border-color: transparent; }
 
-.navbar .navbar-brand img {
-  height: 2em; }
+.navbar h2 {
+  color: #fff; }
 
-.navbar-nav li a {
+.navbar-default .navbar-nav li a {
   text-transform: uppercase;
   opacity: 0.7;
   font-weight: 600;
-  color: #fff;
+  color: white;
   font-size: 1.1em; }
-  .navbar-nav li a:hover {
-    color: #01b4a0;
+  .navbar-default .navbar-nav li a:hover {
+    color: #717171;
     opacity: 1;
     transition: all 0.3s; }
 
@@ -103,6 +103,23 @@ h1, h2, h3, h4, h5, h6 {
   #caracteristicas-info .info-02 p {
     color: #727272;
     padding: 2.5em 0; }
+
+#contato {
+  padding: 1.5em; }
+  #contato h2 {
+    font-size: 4em;
+    font-weight: 600;
+    color: #212121; }
+  #contato h3 {
+    font-size: 2em;
+    font-weight: 300;
+    color: #727272; }
+  #contato .form-control {
+    padding: 1.5em; }
+  #contato button {
+    background: #01b4a0;
+    border-color: #01b4a0;
+    float: left; }
 
 .separator {
   background: #01b4a0;
