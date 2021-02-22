@@ -1,0 +1,24 @@
+body{
+	background:#e1e4e4;
+}
+#navbar-center{
+  &.navbar-default{
+    background: linear-gradient(to right, #65a99a, #01b4a0);
+    border-color:linear-gradient(to right, #65a99a, #01b4a0);
+  }
+  .navbar-header{
+    left:50%;
+    position:relative;
+    transform: translateX(-50%);
+  }
+	.navbar-brand{
+		img{
+			max-height: 2.8em;
+			max-width: 2.8em;
+		}
+	}
+}
+
+#main{
+	margin-top: 3.6em;
+}
