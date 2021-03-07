@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { jsx as _jsx } from \"react/jsx-runtime\";\nimport Menu from '../components/Menu';\n\nfunction Budget() {\n  return /*#__PURE__*/_jsx(\"div\", {\n    children: /*#__PURE__*/_jsx(Menu, {})\n  });\n}\n\nexport default Budget;","map":null,"metadata":{},"sourceType":"module"}
